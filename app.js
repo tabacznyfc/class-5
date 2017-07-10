@@ -4,6 +4,7 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 //Write your code here
+
 function sum(num1, num2) {
   var newSum = num1 + num2;
   var string = 'The sum of ' + num1 + ' and ' + num2 + ' is ' + newSum + '.';
@@ -11,7 +12,7 @@ function sum(num1, num2) {
   console.log(newArray);
   return;
 
-// Here is the test for sum(); uncomment it to run it
+Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle.
@@ -23,8 +24,10 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-
-// Here is the test for multiply(); uncomment it to run it
+function multiply(num1, num2) {
+  return [num1 * num2, 'The product of ' + num1 + ' and ' + num2 + ' is ' + (num1 * num2) + '.'];
+}
+Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
 
 // Once you get the test passing, do an a-c-p cycle.
